@@ -119,7 +119,7 @@ export default function App() {
     });
     for (let i=0;i<bins;i++){
       histData.push({
-        bin: \`\${Math.round(min + i*size)}-\${Math.round(min + (i+1)*size)}\`,
+        bin: `${Math.round(min + i*size)}-\${Math.round(min + (i+1)*size)}`,
         count: counts[i]
       });
     }
